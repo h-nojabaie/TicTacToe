@@ -39,7 +39,6 @@ class TicTacToe:
                         win=True;
 
                         break;
-#                 print(counter,"row",i)
 
             if win:
                 return win
@@ -58,7 +57,6 @@ class TicTacToe:
                     if counter==3:
                         win=True;
                         break;
-#                 print(counter,"row",i)
 
             if win:
                 return win
@@ -92,11 +90,11 @@ class TicTacToe:
         
         return False
 
-        for row in self.board:
-            for item in row:
-                if item == '-':
-                    return False
-        return True
+#         for row in self.board:
+#             for item in row:
+#                 if item == '-':
+#                     return False
+#         return True
 
     def is_board_filled(self):
         for row in self.board:
